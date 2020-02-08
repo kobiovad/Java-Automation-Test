@@ -9,8 +9,8 @@ public class TestCase {
     public void NumberOfCharactersInSequenceTest()
     {
         NumberOfCharactersInSequence nocis = new NumberOfCharactersInSequence();
-        nocis.GiveStringToCheack("00000000");
-        //nocis.GiveStringToCheack("atddueeebbg");
+        //nocis.GiveStringToCheack("00000000");
+        nocis.GiveStringToCheack("adadggfkayod");
         //nocis.GiveStringToCheack("atddueeebbgggg");
         //nocis.GiveStringToCheack("abcdefghijklmn");
     }
@@ -27,14 +27,15 @@ public class TestCase {
 
     }
     @Test
-    public void findDuplicationCharTest()
+    public void findDuplicationCharOrIntTest()
     {
-        String findDuplicationChar="abab     \n 67*zff";
+        String findCCharNotDuplicat="adadggfkayod";
+        int findDuplicationDigit = 7657658;
 
         CharacterNotRepeated cnr = new CharacterNotRepeated();
-        cnr.giveMeString(findDuplicationChar);
+        //cnr.giveMeString(findCCharNotDuplicat);
 
-       // cnr.giveMeInteger(76567);
+        cnr.giveMeInteger(findDuplicationDigit);
 
     }
     @Test

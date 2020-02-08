@@ -24,6 +24,8 @@ public class CharacterNotRepeated {
             count = 0;
         }
         if (k != 0) {
+            System.out.println("Your String: "+blop);
+            System.out.print("Char is not Repeted: ");
             for (int i = 0; i < findChar.length; i++)
                 System.out.print(findChar[i] + " ");
         } else {
@@ -33,36 +35,40 @@ public class CharacterNotRepeated {
     }
 
     public void giveMeInteger(int blop) {
-        int tmp = blop;
-        int tmp2 = blop;
-        int i = 0;
-        for (i = 0; tmp != 0; i++) {
-            tmp /= 10;
-        }
+        if(blop>=0) {
+            int tmp = blop;
+            int tmp2 = blop;
+            int i = 0;
+            for (i = 0; tmp != 0; i++) {
+                tmp /= 10;
+            }
 
-        int[] arrayNum = new int[i];
-        int[] arrayNumTmp = new int[10];
-        for (i = 0; i < arrayNumTmp.length; i++) {
-            arrayNumTmp[i] = 0;
-        }
-        tmp2 = tmp = blop;
+            int[] arrayNum = new int[i];
+            int[] arrayNumTmp = new int[10];
+            for (i = 0; i < arrayNumTmp.length; i++) {
+                arrayNumTmp[i] = 0;
+            }
+            tmp2 = tmp = blop;
 
-        for (i = 0; tmp2 != 0; i++) {
-            tmp %= 10;
-            arrayNum[i] = tmp;
-            tmp = tmp2 = tmp2 / 10;
-        }
-        for (i = 0; i < arrayNum.length; i++) {
-            for (int j = 0; j < arrayNum.length - 1; j++) {
-                if (arrayNum[i] == arrayNum[j + 1]) {
-                    arrayNumTmp[arrayNum[i]]++;
+            for (i = 0; tmp2 != 0; i++) {
+                tmp %= 10;
+                arrayNum[i] = tmp;
+                tmp = tmp2 = tmp2 / 10;
+            }
+            for (i = 0; i < arrayNum.length; i++) {
+                for (int j = 0; j < arrayNum.length - 1; j++) {
+                    if (arrayNum[i] == arrayNum[j + 1]) {
+                        arrayNumTmp[arrayNum[i]]++;
+                    }
                 }
             }
+            System.out.println("Your Number: "+blop);
+            for (i = 0; i < arrayNumTmp.length; i++) {
+                if (arrayNumTmp[i] > 1)
+                    System.out.println("Digit: " + i);
+            }
         }
-            for(i=0;i<arrayNumTmp.length;i++){
-               if(arrayNumTmp[i]>1)
-                   System.out.println("Digit: "+i );
-
-        }
+        else
+            System.out.println("Postive Number Only !");
     }
 }
