@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13a83ab1-84aa-4ba0-8da0-db7bc2ba26e3" name="Default Changelist" comment="Change in UI">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="13a83ab1-84aa-4ba0-8da0-db7bc2ba26e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObject/CharacterNotRepeated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObject/CharacterNotRepeated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObject/CharacterNotRepeated.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObject/CharacterNotRepeated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/TestCase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,16 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="230">
+              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,23 +32,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/CharacterNotRepeated.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="1250">
               <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225" />
+            <state relative-caret-position="25">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/Palindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-250">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +75,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pageObject/CharacterNotRepeated.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObject/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/TestCase.java" />
       </list>
     </option>
@@ -76,6 +94,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,11 +153,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/producer/src/main/java/com/home/project/producer" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
   </component>
   <component name="RunDashboard">
@@ -153,8 +172,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestCase.findDuplicationCharOrIntTest">
-    <configuration name="TestCase.ArrayPrintBackRecursiaTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestCase.PalindromePageTest">
+    <configuration name="TestCase.FibonacciPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="my-pom" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +183,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestCase" />
-      <option name="METHOD_NAME" value="ArrayPrintBackRecursiaTest" />
+      <option name="METHOD_NAME" value="FibonacciPage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -183,6 +202,24 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestCase" />
       <option name="METHOD_NAME" value="NumberOfCharactersInSequenceTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase.PalindromePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="my-pom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestCase" />
+      <option name="METHOD_NAME" value="PalindromePageTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -228,10 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestCase.PalindromePageTest" />
+        <item itemvalue="TestNG.TestCase.FibonacciPage" />
         <item itemvalue="TestNG.TestCase.findDuplicationCharOrIntTest" />
         <item itemvalue="TestNG.TestCase.findDuplicationCharTest" />
         <item itemvalue="TestNG.TestCase.NumberOfCharactersInSequenceTest" />
-        <item itemvalue="TestNG.TestCase.ArrayPrintBackRecursiaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -246,71 +284,129 @@
       <option name="presentableId" value="Default" />
       <updated>1581049216233</updated>
     </task>
+    <task id="LOCAL-00001" summary="Change in UI">
+      <created>1581160970989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581160970989</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase_NumberOfCharactersInSequenceTest - 2020.02.07 at 23h 31m 04s.xml">
-      <configuration name="TestCase.NumberOfCharactersInSequenceTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 00m 40s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharTest - 2020.02.07 at 23h 31m 53s.xml">
-      <configuration name="TestCase.findDuplicationCharTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 01m 00s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharTest - 2020.02.07 at 23h 33m 54s.xml">
-      <configuration name="TestCase.findDuplicationCharTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 01m 17s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharTest - 2020.02.07 at 23h 35m 13s.xml">
-      <configuration name="TestCase.findDuplicationCharTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 01m 31s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharTest - 2020.02.07 at 23h 36m 21s.xml">
-      <configuration name="TestCase.findDuplicationCharTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 01m 56s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharTest - 2020.02.07 at 23h 37m 18s.xml">
-      <configuration name="TestCase.findDuplicationCharTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 02m 52s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharTest - 2020.02.07 at 23h 41m 25s.xml">
-      <configuration name="TestCase.findDuplicationCharTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 03m 24s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharTest - 2020.02.07 at 23h 43m 24s.xml">
-      <configuration name="TestCase.findDuplicationCharTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 03m 53s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharTest - 2020.02.07 at 23h 43m 47s.xml">
-      <configuration name="TestCase.findDuplicationCharTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 04m 46s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestCase_findDuplicationCharOrIntTest - 2020.02.07 at 23h 47m 13s.xml">
-      <configuration name="TestCase.findDuplicationCharOrIntTest" configurationId="TestNG" />
+    <history-entry file="TestCase_PalindromePageTest - 2020.02.09 at 03h 05m 15s.xml">
+      <configuration name="TestCase.PalindromePageTest" configurationId="TestNG" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3281471" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3281471" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3281471" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32390383" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32390383" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3281471" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change in UI" />
@@ -322,20 +418,34 @@
         <state relative-caret-position="-225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/CharacterNotRepeated.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1250">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/CharacterNotRepeated.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        <state relative-caret-position="25">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObject/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
