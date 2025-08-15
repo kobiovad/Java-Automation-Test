@@ -1,7 +1,9 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObject.*;
+import java.util.Arrays;
 
 public class TestCase {
 
@@ -43,9 +45,16 @@ public class TestCase {
     {
         int [] arrA={4,6,2,7,1,8};
         int[] arrB = {6,2,3,7,8,1,2};
+        int[] expected = arrB.clone();
+        Arrays.sort(expected);
+
         ArraySorting as = new ArraySorting();
         as.giveMeArrayToSort(arrB);
-    }@Test
+
+        Assert.assertEquals(arrB, expected);
+    }
+
+    @Test
     public  void RecursionAssemblyTest()
     {
         RecursionAssembly rs = new RecursionAssembly();
